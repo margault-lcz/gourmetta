@@ -1,8 +1,5 @@
-
-
-
-
-body {
+body 
+{
 	color: #7F3E44;
 /*	background:white ;*/
 	font-family:cursive;
@@ -10,96 +7,120 @@ body {
   padding-top: 70px;
 }
 
-header {
+header 
+{
   z-index:10000;
   overflow: hidden;
   display: block;
-
 }
 
-footer {
-display: block;
+footer 
+{
+  display: block;
 }
 
-p {
-    font-size: 20px;
+p 
+{
+  font-size: 20px;
 }
 
-/*nav {
+/*
+
+nav 
+{
 	position : fixed;
 	background-color: #7F3E44;height:45px;width:1270px;
 	border-radius: 15%
-  }
-
-nav ul {
- padding: 0px;
 }
 
-nav ul li {
+nav ul 
+{
+  padding: 0px;
+}
+
+nav ul li 
+{
   display: inline;
 }
 
-nav ul li a {
+nav ul li a 
+{
   padding: 0 80px;
   color: white;
   text-decoration: none;
 }
 
-li { 
+li 
+{ 
 	display: inline-block;
 }
+
 */
 
 
-.manavbar {
+.manavbar 
+{
   background-color:#CC636D;
 }
 
- .manavbar a { 
-font-size: 15px;
-font-family: "Dancing Script", cursive;
-text-decoration: none;
+.manavbar a 
+{ 
+  font-size: 15px;
+  font-family: "Dancing Script", cursive;
+  text-decoration: none;
 }
 
 /*
-.manavbar.navbar-default .navbar-nav>li>a {
+
+.manavbar.navbar-default .navbar-nav>li>a 
+{
   color: white;
 }
+
 */
 
 @media(min-width:768px) {
-    header .container .nav .nav ul li .nav li a . li {
-        padding-top: 200px;
-        padding-bottom: 100px;
-    }
+  header .container .nav .nav ul li .nav li a . li 
+  {
+    padding-top: 200px;
+    padding-bottom: 100px;
+  }
 }
 
 
-#section0 {
+#section0 
+{
 	height: 600px;
 	padding-top: 70px;
-
 }
 
-div img {
-/*  height: 40px;*/
+div img 
+{
+  /*  height: 40px;*/
   border-radius: 10%;
   position: 0 50px;
 }
 
-.subtitle {
+.subtitle 
+{
   margin: 0 0 2em 0;
 }
-.fancy {
+
+.fancy 
+{
   line-height: 0.5;
   text-align: center;
 }
-.fancy span {
+
+.fancy span 
+{
   display: inline-block;
   position: relative;  
 }
+
 .fancy span:before,
-.fancy span:after {
+.fancy span:after 
+{
   content: "";
   position: absolute;
   height: 5px;
@@ -108,26 +129,33 @@ div img {
   top: 0;
   width: 600px;
 }
-.fancy span:before {
+
+.fancy span:before 
+{
   right: 100%;
   margin-right: 15px;
 }
-.fancy span:after {
+
+.fancy span:after 
+{
   left: 100%;
   margin-left: 15px;
 }
-.amp {
+
+.amp 
+{
   margin: 0 0 0.25em 0;
 }
-.amp span {
+
+.amp span 
+{
   font-size: 0.7em;
 }
 
-section img {
-   border-radius: 10%; color:#FF7C88;  
+section img 
+{
+  border-radius: 10%; color:#FF7C88;  
 }
-
-
 
 
 @media (max-width:322px) {  
@@ -250,7 +278,7 @@ h1.titre {
 
 @media (min-width:321px) and (max-width:959px) {
 	#portfolio {
-		margin: 0 0 20px;
+		margin: 0 0 15px;
 }
 }
 
@@ -274,7 +302,7 @@ h1.titre {
 
  sous titre 
 
-@media (max-width:320px) {  
+@media (min-width:10px) and (max-width:320px) {  
   .titre2  { 
   text-align: center; 
   font-size:10px; 
